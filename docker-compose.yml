@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  webrtc-proxy:
+    container_name: webrtc-proxy
+    build:
+      context: docker/webrtc-proxy
+      dockerfile: Dockerfile
+    network_mode: host
+    volumes:
+      - ./:/application/:rw
