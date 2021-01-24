@@ -1,0 +1,6 @@
+[submodule "media-server-go-demo"]
+	path = media-server-go-demo
+	url = https://github.com/hantarex/media-server-go-demo.git
+[submodule "media-server-go"]
+	path = media-server-go
+	url = https://github.com/hantarex/media-server-go.git
